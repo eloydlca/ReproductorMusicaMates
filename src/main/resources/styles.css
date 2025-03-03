@@ -1,0 +1,79 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #2c3e50, #4ca1af);
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.label {
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 18px;
+    -fx-font-weight: normal;
+}
+
+.text-field {
+    -fx-background-color: #34495e;
+    -fx-text-fill: #ecf0f1;
+    -fx-border-color: #95a5a6;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+    -fx-padding: 7px;
+    -fx-font-size: 16px;
+}
+
+.text-field:focused {
+    -fx-border-color: #1abc9c;
+}
+
+.button {
+    -fx-background-color: #1abc9c;
+    -fx-text-fill: #2c3e50;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #16a085;
+}
+
+.list-view {
+    -fx-background-color: #34495e;
+    -fx-border-color: #95a5a6;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ecf0f1;
+    -fx-padding: 10px;
+    -fx-font-size: 16px;
+}
+
+.list-cell:hover {
+    -fx-background-color: rgba(26, 188, 156, 0.3);
+}
+
+.list-cell:selected {
+    -fx-background-color: #1abc9c;
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: bold;
+}
+
+#btnDetener {
+    -fx-background-color: #d9534f;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+#btnDetener:hover {
+    -fx-background-color: #bd362f;
+}
