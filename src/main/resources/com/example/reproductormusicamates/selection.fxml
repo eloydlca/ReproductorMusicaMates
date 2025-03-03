@@ -4,12 +4,8 @@
 <?import javafx.scene.layout.*?>
 
 <VBox alignment="CENTER" prefHeight="414.0" prefWidth="651.0" spacing="10" style="-fx-padding: 20;" stylesheets="@/styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reproductormusicamates.SelectionController">
-    <!-- Título de la aplicación -->
     <Label prefHeight="82.0" prefWidth="134.0" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: white;" text="Brain Beats" />
-    <!-- Lista de canciones -->
     <ListView fx:id="listViewSongs" prefHeight="254.0" prefWidth="611.0" />
-    <!-- Botón para seleccionar una canción -->
     <Button fx:id="btnSeleccionar" onAction="#handleSeleccionar" prefHeight="32.0" prefWidth="200.0" text="Seleccionar canción" />
-    <!-- Botón para detener la canción -->
     <Button fx:id="btnDetener" onAction="#handleDetener" prefHeight="32.0" prefWidth="200.0" text="Detener canción" />
 </VBox>
